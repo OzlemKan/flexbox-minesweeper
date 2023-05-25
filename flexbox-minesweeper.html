@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .board {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+        width: 400px;
+        height: 400px;
+        border: 10px solid darkgray;
+        background-color: lightgray;
+      }
+
+      .grid-item {
+        display: flex;
+        width: 48px;
+        height: 48px;
+        justify-content: center;
+        border: 1px dotted;
+      }
+
+      .item1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 1px dotted;
+        border-color: black;
+        width: 48px;
+        height: 48px;
+
+        color: blue;
+        font-weight: bolder;
+        font-size: 30px;
+      }
+
+      .item2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 1px dotted;
+        border-color: black;
+        width: 48px;
+        height: 48px;
+
+        color: green;
+        font-size: 30px;
+        font-weight: bolder;
+      }
+
+      .item3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 1px dotted;
+        border-color: black;
+        width: 48px;
+        height: 48px;
+
+        color: red;
+        font-size: 30px;
+        font-weight: bolder;
+      }
+
+      .cache {
+        background-color: lightgrey;
+        border-bottom: 3px outset darkgrey;
+        border-right: 3px inset black;
+        border-top: 3px outset;
+        border-left: 3px outset;
+
+        width: 44px;
+        height: 44px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="board">
+      <div class="cache"></div>
+      <div class="item1">1</div>
+      <div class="item1">1</div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item3">3</div>
+      <div class="grid-item"></div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="grid-item"></div>
+      <div class="item3">3</div>
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="item3">3</div>
+      <div class="item2">2</div>
+      <div class="item1">1</div>
+      <div class="item3">3</div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="item3">3</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="item3">3</div>
+      <div class="grid-item"></div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="grid-item"></div>
+      <div class="item3">3</div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="grid-item"></div>
+      <div class="item3">3</div>
+      <div class="item2">2</div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="grid-item"></div>
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item3">3</div>
+      <div class="grid-item"></div>
+      <div class="item3">3</div>
+      <div class="item3">3</div>
+      <div class="grid-item"></div>
+      <div class="item2">2</div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="item1">1</div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="item3">3</div>
+      <div class="grid-item"></div>
+      <div class="item1">1</div>
+      <div class="item1">1</div>
+      <div class="grid-item"><img src="bomb.gif" alt="bomb" /></div>
+      <div class="item3">3</div>
+      <div class="grid-item"></div>
+    </div>
+  </body>
+</html>
